@@ -24,15 +24,6 @@ export function Computer(props) {
   useLayoutEffect(() => {
     timeline.current = gsap.timeline();
 
-    // timeline.current.to(
-    //   ref.current.position,
-    //   {
-    //     duration: 2,
-    //     y: -FLOOR_HEIGHT * (NUMBER_OF_COMPONENTS - 1),
-    //   },
-    //   0
-    // );
-
     timeline.current.from(
       monitorRef.current.position,
       {
