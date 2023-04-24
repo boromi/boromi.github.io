@@ -10,5 +10,6 @@ Portfolio app using:
 
 ### Dev comments
 
-//push `/dist` bundle to `depl` branch for auto deployment to gh-pages
-$ git subtree push --prefix dist origin depl
+push `/dist` bundle to `depl` branch for auto deployment to gh-pages
+
+-- $ git subtree push --prefix dist origin depl
