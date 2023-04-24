@@ -3,7 +3,6 @@ import gsap from "gsap";
 import { useGLTF, useScroll } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
-export const FLOOR_HEIGHT = 1;
 export const NUMBER_OF_COMPONENTS = 3;
 
 export function Computer(props) {
@@ -24,29 +23,11 @@ export function Computer(props) {
   useLayoutEffect(() => {
     timeline.current = gsap.timeline();
 
-    // timeline.current.to(
-    //   ref.current.position,
-    //   {
-    //     duration: 2,
-    //     y: -FLOOR_HEIGHT * (NUMBER_OF_COMPONENTS - 1),
-    //   },
-    //   0
-    // );
-
-    timeline.current.from(
-      monitorRef.current.position,
-      {
-        duration: 0.5,
-        x: -15,
-      },
-      0
-    );
-
     timeline.current.from(
       monitorRef.current.rotation,
       {
-        duration: 0.5,
-        y: -Math.PI / 2,
+        duration: 1.0,
+        y: -Math.PI * 2,
       },
       0
     );
@@ -65,6 +46,15 @@ export function Computer(props) {
       {
         duration: 1.5,
         x: 4,
+      },
+      1.0
+    );
+
+    timeline.current.from(
+      mouseRef.current.rotation,
+      {
+        duration: 1.0,
+        y: -Math.PI * 2,
       },
       1.0
     );
