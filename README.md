@@ -10,6 +10,6 @@ Portfolio app using:
 
 ### Dev comments
 
-push `/dist` bundle to `depl` branch for auto deployment to gh-pages
+After running `$npm run build` push contents of`/dist` folder to `gh-pages` branch for auto-deployment:
 
--- $ git subtree push --prefix dist origin depl
+-- $ git subtree push --prefix dist origin gh-pages

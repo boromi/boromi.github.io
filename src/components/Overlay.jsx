@@ -47,7 +47,7 @@ export const Overlay = () => {
         <Section right opacity={opacitySecondSection}>
           <h1 className="font-semibold font-serif text-2xl">
             <img
-              src="radar.svg"
+              src="icons/radar.svg"
               style={{ float: "left", padding: "0 5px 0 0" }}
               alt="radar"
             />{" "}
@@ -60,7 +60,7 @@ export const Overlay = () => {
             <li>☕ Java</li>
             <li>
               <img
-                src="aws.svg"
+                src="icons/aws.svg"
                 style={{ float: "left", padding: "7px 5px 0 0" }}
                 alt="aws"
               />
@@ -75,7 +75,7 @@ export const Overlay = () => {
           <ul className="leading-9" style={{ padding: "0 0 0 25px" }}>
             <li>
               <img
-                src="angular.svg"
+                src="icons/angular.svg"
                 style={{ float: "left", padding: "7px 5px 0 0" }}
                 alt="angular"
               />
@@ -84,7 +84,7 @@ export const Overlay = () => {
             <li>
               {" "}
               <img
-                src="svelte.svg"
+                src="icons/svelte.svg"
                 style={{ float: "left", padding: "7px 5px 0 0" }}
                 alt="svelte"
               />
@@ -93,7 +93,7 @@ export const Overlay = () => {
             <li>
               {" "}
               <img
-                src="threejs.svg"
+                src="icons/threejs.svg"
                 style={{ float: "left", padding: "7px 5px 0 0" }}
                 alt="threejs"
               />
@@ -120,7 +120,7 @@ export const Overlay = () => {
               </text>
             </svg>
             <img
-              src="github.svg"
+              src="icons/github.svg"
               style={{ float: "left", padding: "0 7px 0 0" }}
               alt="github"
             />
