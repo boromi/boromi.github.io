@@ -99,4 +99,4 @@ export function Computer(props) {
   );
 }
 
-useGLTF.preload("./models/lowres_computer.glb");
+useGLTF.preload("./models/bluegrm.glb");

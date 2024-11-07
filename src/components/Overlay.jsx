@@ -37,7 +37,7 @@ export const Overlay = () => {
         <Section opacity={opacityFirstSection}>
           <h1 className="font-semibold font-serif text-2xl">
             {" "}
-            🖖 Welcome to my intro page!{" "}
+            🖖 Hello and welcome to my IT intro page!{" "}
           </h1>
           <br />
           <p>Scroll down to continue</p>
@@ -51,7 +51,7 @@ export const Overlay = () => {
               style={{ float: "left", padding: "0 5px 0 0" }}
               alt="radar"
             />{" "}
-            Tech I keep on my radar{" "}
+            Tech I enjoy working with:{" "}
           </h1>
           <p className="mt-3">
             <b>Backend:</b>
@@ -66,13 +66,55 @@ export const Overlay = () => {
               />
               AWS
             </li>
-            <li>🥾 SpringBoot</li>
-            <li>🖥 Serverless</li>
+            <li>
+              {" "}
+              <img
+                src="icons/redis.svg"
+                style={{ float: "left", padding: "7px 5px 0 0" }}
+                alt="redis"
+              />{" "}
+              Redis
+            </li>
+            <li>
+              {" "}
+              <img
+                src="icons/lambda.svg"
+                style={{ float: "left", padding: "7px 5px 0 0" }}
+                alt="lambda"
+              />{" "}
+              Lambda
+            </li>
             <li>🐘 PostgreSQL</li>
+            <li>
+              {" "}
+              <img
+                src="icons/dynamodb.svg"
+                style={{ float: "left", padding: "7px 5px 0 0" }}
+                alt="dynamodb"
+              />{" "}
+              DynamoDB
+            </li>
+            <li>
+              {" "}
+              <img
+                src="icons/rabbitmq.svg"
+                style={{ float: "left", padding: "7px 5px 0 0" }}
+                alt="rabbitmq"
+              />{" "}
+              RabbitMQ
+            </li>
           </ul>
           <br />
           <b>Frontend:</b>
           <ul className="leading-9" style={{ padding: "0 0 0 25px" }}>
+            <li>
+              <img
+                src="icons/react.svg"
+                style={{ float: "left", padding: "7px 5px 0 0" }}
+                alt="react"
+              />
+              React
+            </li>
             <li>
               <img
                 src="icons/angular.svg"
@@ -98,6 +140,15 @@ export const Overlay = () => {
                 alt="threejs"
               />
               ThreeJS
+            </li>
+            <li>
+              {" "}
+              <img
+                src="icons/d3js.svg"
+                style={{ float: "left", padding: "7px 5px 0 0" }}
+                alt="d3js"
+              />
+              D3.JS
             </li>
           </ul>
           <p className="animate-bounce mt-6">🖱 + ↓</p>
